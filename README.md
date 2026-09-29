@@ -1,129 +1,66 @@
-# 👩🏻‍💻 Renato Fernandes
+name: GitHub Metrics
 
-**`Desenvolvedor FullStack`**
+on:
+  schedule:
+    - cron: "0 6 * * *"
 
-Me chamo Renato Fernandes, sou natural do Rio Grande do Sul e atualmente curso Análise e Desenvolvimento de Sistemas na FSG | Caxias do Sul. Sou apaixonado por tecnologia e por estar sempre em busca de novidades, explorando novas ferramentas e conceitos para aprimorar minhas habilidades e ampliar meus conhecimentos na área
+  workflow_dispatch:
 
-<p align="left">
-    <a href="https://www.youtube.com/@siksdev">
-        <img 
-            alt="youtube subscribers" 
-            title="Inscreva-se no meu canal" 
-            src="https://custom-icon-badges.demolab.com/youtube/channel/subscribers/UCo-gJ8RnTn5akHqHvO55DVA?color=%23E05D44&label=Inscreva-se&logo=video&logoColor=white&style=for-the-badge&labelColor=CE4630"
-        />
-    </a>
-    <a href="https://www.youtube.com/@siksdev">
-        <img 
-            alt="youtube views" 
-            title="Vizualizações no YouTube" 
-            src="https://custom-icon-badges.demolab.com/youtube/channel/views/UCo-gJ8RnTn5akHqHvO55DVA?color=%23E1AD0E&logo=eye&logoColor=white&style=for-the-badge&labelColor=C79600"
-        />
-    </a> 
-    <a href="https://github.com/siksdev?tab=repositories&sort=stargazers">
-        <img 
-            alt="Total de estrelas" 
-            title="Total de estrelas GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/stars/siksdev?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=estrelas"
-        />
-    </a>
-    <a href="https://github.com/siksdev?tab=followers">
-        <img 
-            alt="Seguidores" 
-            title="Me siga no GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/followers/siksdev?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
-        />
-    </a>
-</p>
+  push:
+    branches:
+      - main
 
----
+permissions:
+  contents: write
 
-### 🤖 Linguagens e Tecnologias
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
 
-<img 
-    align="left" 
-    alt="HTML"
-    title="HTML" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="CSS" 
-    title="CSS"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="JavaScript" 
-    title="JavaScript"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="TypeScript"
-    title="TypeScript" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="React"
-    title="React" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Git" 
-    title="Git"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Python" 
-    title="Python"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
-/>
-<img
-align="left" 
-alt="Python" 
-title="Python"
-width="30px" 
-style="padding-right: 10px;"
-src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg"
-/>
-          
+    steps:
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
 
-<br/>
-<br/>
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
 
-### 📊 Estatísticas
+          user: ${{ github.repository_owner }}
 
-<p>
-  <img 
-    align="left" 
-    alt="GitHub Stats" 
-    height="200" 
-    style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=siksdev&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
-  />
+          filename: github-metrics.svg
 
-<img 
-      align="left" 
-      alt="GitHub Stats" 
-      height="200" 
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=siksdev&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
-  />
+          template: classic
 
-</p>
+          config_timezone: America/Sao_Paulo
+
+          base: header, activity, community, repositories, metadata
+
+          config_order: base.header, languages, isocalendar, activity, repositories, achievements
+
+          # Linguagens mais utilizadas
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_details: percentage
+          plugin_languages_threshold: 2%
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_indepth: yes
+
+          # Calendário de commits
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+          # Atividade recente
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 30
+          plugin_activity_filter: all
+
+          # Repositórios
+          plugin_repositories: yes
+          plugin_repositories_featured: ""
+
+          # Conquistas
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+          plugin_achievements_display: compact
