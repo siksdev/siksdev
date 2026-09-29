@@ -1,66 +1,132 @@
-name: GitHub Metrics
+# Renato Fernandes
 
-on:
-  schedule:
-    - cron: "0 6 * * *"
+### Software Development · Game Systems · RedM
 
-  workflow_dispatch:
+Desenvolvedor focado em construir sistemas, interfaces e experiências para servidores de jogos, enquanto aprofundo meus conhecimentos em desenvolvimento de software e arquitetura de aplicações.
 
-  push:
-    branches:
-      - main
+Atualmente trabalhando principalmente com **C#**, **Lua**, **JavaScript**, **HTML/CSS** e desenvolvimento para **RedM**.
 
-permissions:
-  contents: write
+---
 
-jobs:
-  github-metrics:
-    runs-on: ubuntu-latest
+## Sobre mim
 
-    steps:
-      - name: Generate GitHub Metrics
-        uses: lowlighter/metrics@latest
+```text
+📍 Brazil
+🎓 Análise e Desenvolvimento de Sistemas
+💻 C# · Lua · JavaScript
+🎮 RedM / RDR2 Development
+🧩 Gameplay Systems · NUI · Server Resources
+🚀 Construindo projetos próprios e aprendendo continuamente
+```
 
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
+Tenho interesse principalmente em transformar ideias em sistemas funcionais, com atenção a experiência do usuário, organização do código e integração entre diferentes resources.
 
-          user: ${{ github.repository_owner }}
+---
 
-          filename: github-metrics.svg
+## Tecnologias
 
-          template: classic
+### Linguagens
 
-          config_timezone: America/Sao_Paulo
+<p>
+  <img src="https://skillicons.dev/icons?i=cs,lua,js,html,css" />
+</p>
 
-          base: header, activity, community, repositories, metadata
+### Desenvolvimento
 
-          config_order: base.header, languages, isocalendar, activity, repositories, achievements
+<p>
+  <img src="https://skillicons.dev/icons?i=dotnet,nodejs,git,github,vscode,visualstudio" />
+</p>
 
-          # Linguagens mais utilizadas
-          plugin_languages: yes
-          plugin_languages_ignored: html, css
-          plugin_languages_details: percentage
-          plugin_languages_threshold: 2%
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_indepth: yes
+### Áreas de interesse
 
-          # Calendário de commits
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+```text
+RedM Development
+├── Gameplay Systems
+├── Character Systems
+├── NUI / UI
+├── Framework Integration
+├── Resource Development
+└── Server Architecture
 
-          # Atividade recente
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 30
-          plugin_activity_filter: all
+Software Development
+├── C# / .NET
+├── Object-Oriented Programming
+├── Data Structures
+├── Backend Development
+└── Web Interfaces
+```
 
-          # Repositórios
-          plugin_repositories: yes
-          plugin_repositories_featured: ""
+---
 
-          # Conquistas
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
-          plugin_achievements_display: compact
+## O que estou construindo
+
+### RedM
+
+Desenvolvimento de resources e sistemas para criação de experiências mais completas dentro de servidores RedM.
+
+Alguns dos sistemas com os quais trabalho:
+
+- criação e seleção de personagens;
+- interfaces NUI;
+- sistemas de HUD;
+- NPCs e interação com o mundo;
+- spawn e gerenciamento de personagens;
+- integração entre resources;
+- customização de frameworks;
+- sistemas de gameplay;
+- interfaces e experiências para jogadores.
+
+### Software Development
+
+Também estou aprofundando meus conhecimentos em:
+
+- C#;
+- .NET;
+- Programação Orientada a Objetos;
+- Estruturas de Dados;
+- Git e GitHub;
+- arquitetura e organização de projetos.
+
+---
+
+## GitHub Metrics
+
+<p align="center">
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%">
+</p>
+
+---
+
+## Atualmente
+
+```csharp
+public class Developer
+{
+    public string Name { get; } = "Renato Fernandes";
+
+    public string[] MainTechnologies { get; } =
+    {
+        "C#",
+        "Lua",
+        "JavaScript"
+    };
+
+    public string[] Interests { get; } =
+    {
+        "Software Development",
+        "Game Systems",
+        "RedM",
+        "Backend",
+        "UI / UX"
+    };
+
+    public string CurrentGoal { get; } =
+        "Build better systems and become a better developer.";
+}
+```
+
+---
+
+<p align="center">
+  Building. Learning. Improving.
+</p>
