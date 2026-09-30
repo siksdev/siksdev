@@ -1,0 +1,64 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Renato Fernandes GitHub profile header</title>
+  <desc id="desc">Animated professional header for Renato Fernandes, software development student.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0F14"/>
+      <stop offset="0.55" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#0A101A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(500 120) rotate(90) scale(190 520)">
+      <stop stop-color="#1F6FEB" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#1F6FEB" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.025"/>
+    </pattern>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="258" rx="20" fill="url(#bg)" stroke="#30363D"/>
+  <rect x="1" y="1" width="998" height="258" rx="20" fill="url(#grid)"/>
+  <rect x="1" y="1" width="998" height="258" rx="20" fill="url(#glow)"/>
+
+  <circle cx="36" cy="34" r="4" fill="#58A6FF"/>
+  <text x="51" y="39" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" letter-spacing="1.4">SIKSDEV / PROFILE</text>
+  <text x="964" y="39" text-anchor="end" fill="#484F58" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="1">BUILD · LEARN · SHIP</text>
+
+  <text x="500" y="105" text-anchor="middle" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" letter-spacing="-0.6">Hi, I'm Renato Fernandes.</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" text-anchor="middle" fill="#58A6FF">
+    <text x="500" y="149" opacity="1">Software Development Student
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="1;1;0;0;0;0;0;0;1" keyTimes="0;0.20;0.25;0.25;0.50;0.50;0.75;0.98;1"/>
+    </text>
+    <text x="500" y="149" opacity="0">Learning C# &amp; .NET
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.23;0.27;0.45;0.50;0.50;0.75;1;1"/>
+    </text>
+    <text x="500" y="149" opacity="0">Building for the Web
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;0;0;1;1;0;0;0" keyTimes="0;0.25;0.25;0.48;0.52;0.70;0.75;1;1"/>
+    </text>
+    <text x="500" y="149" opacity="0">RedM &amp; FiveM Developer
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;0;0;0;0;1;1;0" keyTimes="0;0.25;0.25;0.50;0.50;0.73;0.77;0.95;1"/>
+    </text>
+  </g>
+
+  <g transform="translate(500 184)" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">
+    <rect x="-175" y="0" width="72" height="30" rx="15" fill="#161B22" stroke="#30363D"/>
+    <text x="-139" y="20" text-anchor="middle" fill="#C9D1D9">C#</text>
+    <rect x="-91" y="0" width="72" height="30" rx="15" fill="#161B22" stroke="#30363D"/>
+    <text x="-55" y="20" text-anchor="middle" fill="#C9D1D9">.NET</text>
+    <rect x="-7" y="0" width="72" height="30" rx="15" fill="#161B22" stroke="#30363D"/>
+    <text x="29" y="20" text-anchor="middle" fill="#C9D1D9">WEB</text>
+    <rect x="77" y="0" width="98" height="30" rx="15" fill="#161B22" stroke="#30363D"/>
+    <text x="126" y="20" text-anchor="middle" fill="#C9D1D9">LUA / REDM</text>
+  </g>
+
+  <rect x="410" y="233" width="180" height="2" rx="1" fill="#1F6FEB" opacity="0.25"/>
+  <rect x="450" y="233" width="100" height="2" rx="1" fill="#58A6FF">
+    <animate attributeName="x" values="410;490;410" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="70;100;70" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.35;0.9;0.35" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
