@@ -1,45 +1,31 @@
 <div align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Renato Fernandes — Software Development Student" />
 
-# Hi, I'm Renato Fernandes
+  <br />
 
-### Software Development Student
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=720&height=45&lines=Software+Development+Student;Learning+C%23+%26+.NET;Building+for+the+Web;RedM+%26+FiveM+Developer)](https://git.io/typing-svg)
-
-<a href="https://www.linkedin.com/in/renatoofernandes/">
-  <img src="https://img.shields.io/badge/LinkedIn-Renato%20Fernandes-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-<a href="https://discord.gg/bDWvGZuSRS">
-  <img src="https://img.shields.io/badge/SafeStudio-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="SafeStudio Discord">
-</a>
-
+  <a href="https://www.linkedin.com/in/renatoofernandes/">
+    <img src="https://img.shields.io/badge/LinkedIn-Renato%20Fernandes-161B22?style=for-the-badge&logo=linkedin&logoColor=58A6FF" alt="LinkedIn" />
+  </a>
+  <a href="https://discord.gg/bDWvGZuSRS">
+    <img src="https://img.shields.io/badge/SafeStudio-Community-161B22?style=for-the-badge&logo=discord&logoColor=58A6FF" alt="SafeStudio Discord" />
+  </a>
 </div>
 
----
+<br />
 
 ## About me
 
-I'm Renato, a Software Development student from **Rio Grande do Sul, Brazil**.
+I'm Renato, a **Software Development student** from Rio Grande do Sul, Brazil. I'm currently growing my skills in **C#, .NET and web development**, learning by building and understanding how software works beyond the surface.
 
-I'm currently focused on improving my skills in **C#, .NET and web development**, learning by building projects and understanding how software works beyond the surface.
+Alongside my studies, I build and deliver **RedM and FiveM systems through SafeStudio**, giving me hands-on experience with real projects, interfaces, gameplay systems, integrations and practical problem-solving.
 
-Alongside my studies, I develop and deliver **RedM and FiveM systems through SafeStudio**, working with real projects, interfaces, gameplay systems, integrations and practical problem-solving.
-
----
-
-## Technologies I work with
+<br />
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=lua,cs,git,github,html,css,js,ts,react,tailwind&theme=dark" alt="Technology stack">
-
-<br><br>
-
-<img src="https://img.shields.io/badge/MariaDB-0D1117?style=for-the-badge&logo=mariadb&logoColor=58A6FF" alt="MariaDB">
-
+  <img src="./assets/stack.svg" width="100%" alt="Technologies I work with" />
 </div>
 
----
+<br />
 
 ## What I'm working on
 
@@ -47,27 +33,27 @@ Alongside my studies, I develop and deliver **RedM and FiveM systems through Saf
 <tr>
 <td width="33%" valign="top">
 
-### Learning & Improving
+#### 01 — Learning & Improving
 
-Strengthening my foundations in software development and learning how to build cleaner, more maintainable applications.
+Strengthening my foundations in **C#**, **.NET**, OOP and software development with a focus on clean and maintainable code.
 
-`C#` ` .NET` `OOP`
+`C#` `.NET` `OOP`
 
 </td>
 <td width="33%" valign="top">
 
-### Web Development
+#### 02 — Web Development
 
-Building modern interfaces and improving my frontend development workflow with typed and component-based technologies.
+Building modern interfaces and improving my frontend workflow with component-based and typed technologies.
 
 `React` `TypeScript` `Tailwind`
 
 </td>
 <td width="33%" valign="top">
 
-### SafeStudio
+#### 03 — SafeStudio
 
-Developing and delivering systems for RedM and FiveM, from gameplay resources to interfaces and framework integrations.
+Developing and delivering systems for **RedM** and **FiveM**, from gameplay resources to interfaces and framework integrations.
 
 `Lua` `RedM` `FiveM`
 
@@ -75,46 +61,36 @@ Developing and delivering systems for RedM and FiveM, from gameplay resources to
 </tr>
 </table>
 
----
+<br />
 
-## Featured project
+## Featured work
 
-### Safe Pointing
+<a href="https://github.com/siksdev/Safe-Pointing">
+  <img src="./assets/safe-pointing.svg" width="100%" alt="Safe Pointing — featured RedM project" />
+</a>
 
-A lightweight standalone pointing system for **RedM**, built to provide a simple and natural way for players to point at objects and locations in the game world.
+<br />
 
-The project uses camera-based interaction logic and synchronized behavior while keeping the resource simple to install and use.
-
-**Stack:** `Lua` `RedM` `Networking` `Raycasting`
-
-[![Repository](https://img.shields.io/badge/View_Repository-Safe--Pointing-58A6FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/siksdev/Safe-Pointing)
-
----
-
-## GitHub activity
+## Developer activity
 
 <div align="center">
-
-[![Renato's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=siksdev&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=ffffff&area=true&area_color=1f6feb&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/siksdev)
-
+  <img src="./metrics.activity.svg" width="100%" alt="GitHub contribution activity" />
 </div>
 
----
+<br />
 
 ## Most used languages
 
 <div align="center">
-
-[![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=siksdev&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&langs_count=8)](https://github.com/siksdev)
-
+  <img src="./metrics.languages.svg" width="100%" alt="Most used languages" />
 </div>
+
+<br />
 
 ---
 
 <div align="center">
-
-### Brazil — Rio Grande do Sul
-
-<sub>Building, learning and improving one project at a time.</sub>
-
+  <sub>📍 Rio Grande do Sul, Brazil</sub>
+  <br /><br />
+  <strong>Building. Learning. Improving.</strong>
 </div>
