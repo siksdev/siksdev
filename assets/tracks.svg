@@ -1,0 +1,69 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .sans { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }
+    </style>
+    <path id="careerPath" d="M150 160 H430 Q470 160 500 190 H755 Q795 190 825 160 H1055"/>
+    <path id="shipPath" d="M150 305 H365 Q405 305 435 275 H690 Q730 275 760 305 H1055"/>
+  </defs>
+  <rect width="1200" height="430" fill="#0D1117"/>
+
+  <text x="66" y="55" fill="#5E6C7C" font-size="13" class="mono" letter-spacing="2">WORKING MODEL / 02</text>
+  <text x="66" y="98" fill="#F0F6FC" font-size="30" font-weight="700" class="sans">Two tracks. One direction.</text>
+  <text x="1134" y="98" text-anchor="end" fill="#768494" font-size="15" class="mono">LEARN ↔ BUILD ↔ SHIP</text>
+
+  <text x="66" y="162" fill="#58A6FF" font-size="13" class="mono" letter-spacing="1.5">CAREER FOCUS</text>
+  <use href="#careerPath" fill="none" stroke="#2F81F7" stroke-width="4" stroke-linecap="round"/>
+  <circle r="7" fill="#DCEEFF">
+    <animateMotion dur="6s" repeatCount="indefinite">
+      <mpath href="#careerPath"/>
+    </animateMotion>
+  </circle>
+
+  <g class="sans" font-weight="650">
+    <g transform="translate(150 160)">
+      <circle r="13" fill="#0D1117" stroke="#58A6FF" stroke-width="3"/>
+      <text x="-4" y="44" fill="#F0F6FC" font-size="18">C#</text>
+      <text x="-4" y="66" fill="#778697" font-size="13">language fundamentals</text>
+    </g>
+    <g transform="translate(500 190)">
+      <circle r="13" fill="#0D1117" stroke="#58A6FF" stroke-width="3"/>
+      <text x="-14" y="-28" fill="#F0F6FC" font-size="18">.NET</text>
+      <text x="-14" y="-49" fill="#778697" font-size="13">ecosystem &amp; applications</text>
+    </g>
+    <g transform="translate(825 160)">
+      <circle r="13" fill="#0D1117" stroke="#58A6FF" stroke-width="3"/>
+      <text x="-16" y="44" fill="#F0F6FC" font-size="18">WEB</text>
+      <text x="-16" y="66" fill="#778697" font-size="13">interfaces &amp; products</text>
+    </g>
+  </g>
+
+  <text x="66" y="307" fill="#A7B2BF" font-size="13" class="mono" letter-spacing="1.5">SHIPPING TODAY</text>
+  <use href="#shipPath" fill="none" stroke="#3A4655" stroke-width="4" stroke-linecap="round"/>
+  <circle r="7" fill="#A7B2BF">
+    <animateMotion dur="7s" repeatCount="indefinite">
+      <mpath href="#shipPath"/>
+    </animateMotion>
+  </circle>
+
+  <g class="sans" font-weight="650">
+    <g transform="translate(150 305)">
+      <circle r="13" fill="#0D1117" stroke="#6F7D8D" stroke-width="3"/>
+      <text x="-8" y="44" fill="#F0F6FC" font-size="18">Lua</text>
+    </g>
+    <g transform="translate(435 275)">
+      <circle r="13" fill="#0D1117" stroke="#6F7D8D" stroke-width="3"/>
+      <text x="-28" y="-29" fill="#F0F6FC" font-size="18">RedM / FiveM</text>
+      <text x="-28" y="-50" fill="#778697" font-size="13">gameplay &amp; interfaces</text>
+    </g>
+    <g transform="translate(760 305)">
+      <circle r="13" fill="#0D1117" stroke="#6F7D8D" stroke-width="3"/>
+      <text x="-42" y="44" fill="#F0F6FC" font-size="18">SafeStudio</text>
+      <text x="-42" y="66" fill="#778697" font-size="13">real delivery &amp; support</text>
+    </g>
+  </g>
+
+  <line x1="66" y1="392" x2="1134" y2="392" stroke="#202A37"/>
+  <text x="66" y="416" fill="#708090" font-size="13" class="mono">React · TypeScript · Tailwind · Git · GitHub · MariaDB</text>
+</svg>
