@@ -1,96 +1,47 @@
-<div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Renato Fernandes — Software Development Student" />
+<p align="center">
+  <img src="./assets/masthead.svg" width="100%" alt="Renato Fernandes — siksdev">
+</p>
 
-  <br />
+<p align="center">
+  <a href="https://www.linkedin.com/in/renatoofernandes/"><b>LinkedIn</b></a>
+  &nbsp;&nbsp;/&nbsp;&nbsp;
+  <a href="https://discord.gg/bDWvGZuSRS"><b>SafeStudio</b></a>
+  &nbsp;&nbsp;/&nbsp;&nbsp;
+  <a href="https://github.com/siksdev/Safe-Pointing"><b>Safe Pointing</b></a>
+</p>
 
-  <a href="https://www.linkedin.com/in/renatoofernandes/">
-    <img src="https://img.shields.io/badge/LinkedIn-Renato%20Fernandes-161B22?style=for-the-badge&logo=linkedin&logoColor=58A6FF" alt="LinkedIn" />
-  </a>
-  <a href="https://discord.gg/bDWvGZuSRS">
-    <img src="https://img.shields.io/badge/SafeStudio-Community-161B22?style=for-the-badge&logo=discord&logoColor=58A6FF" alt="SafeStudio Discord" />
-  </a>
-</div>
+<br>
 
-<br />
+## About
 
-## About me
+I'm Renato, an **Analysis and Systems Development student** from Rio Grande do Sul, Brazil.
 
-I'm Renato, a **Software Development student** from Rio Grande do Sul, Brazil. I'm currently growing my skills in **C#, .NET and web development**, learning by building and understanding how software works beyond the surface.
+I'm building my professional path around **C#, .NET and web development**. In parallel, I already ship real **RedM and FiveM systems through SafeStudio** — working across gameplay, interfaces, integrations and the practical problems that only show up once software is actually being used.
 
-Alongside my studies, I build and deliver **RedM and FiveM systems through SafeStudio**, giving me hands-on experience with real projects, interfaces, gameplay systems, integrations and practical problem-solving.
+I care more about understanding why a system works than making a demo look finished.
 
-<br />
+<br>
 
-<div align="center">
-  <img src="./assets/stack.svg" width="100%" alt="Technologies I work with" />
-</div>
+<p align="center">
+  <img src="./assets/tracks.svg" width="100%" alt="Renato's development path: C#, .NET and web alongside SafeStudio production work">
+</p>
 
-<br />
+<br>
 
-## What I'm working on
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-#### 01 — Learning & Improving
-
-Strengthening my foundations in **C#**, **.NET**, OOP and software development with a focus on clean and maintainable code.
-
-`C#` `.NET` `OOP`
-
-</td>
-<td width="33%" valign="top">
-
-#### 02 — Web Development
-
-Building modern interfaces and improving my frontend workflow with component-based and typed technologies.
-
-`React` `TypeScript` `Tailwind`
-
-</td>
-<td width="33%" valign="top">
-
-#### 03 — SafeStudio
-
-Developing and delivering systems for **RedM** and **FiveM**, from gameplay resources to interfaces and framework integrations.
-
-`Lua` `RedM` `FiveM`
-
-</td>
-</tr>
-</table>
-
-<br />
-
-## Featured work
+## Selected work
 
 <a href="https://github.com/siksdev/Safe-Pointing">
-  <img src="./assets/safe-pointing.svg" width="100%" alt="Safe Pointing — featured RedM project" />
+  <img src="./assets/safe-pointing.svg" width="100%" alt="Safe Pointing project case study">
 </a>
 
-<br />
+**Safe Pointing** is a standalone RedM resource that uses camera-based raycasting so the character points where the player is actually looking. It synchronizes the behavior across players through optimized network events and is written in Lua 5.4 with a low CPU footprint.
 
-## Developer activity
+**[Explore the repository →](https://github.com/siksdev/Safe-Pointing)**
 
-<div align="center">
-  <img src="./metrics.activity.svg" width="100%" alt="GitHub contribution activity" />
-</div>
-
-<br />
-
-## Most used languages
-
-<div align="center">
-  <img src="./metrics.languages.svg" width="100%" alt="Most used languages" />
-</div>
-
-<br />
+<br>
 
 ---
 
-<div align="center">
-  <sub>📍 Rio Grande do Sul, Brazil</sub>
-  <br /><br />
-  <strong>Building. Learning. Improving.</strong>
-</div>
+<sub>
+Based in Rio Grande do Sul, Brazil · currently deepening C# / .NET / web · shipping RedM & FiveM systems through SafeStudio.
+</sub>
