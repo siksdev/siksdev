@@ -1,0 +1,37 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .sans { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+  <rect width="1200" height="380" fill="#0D1117"/>
+  <rect x="0" y="0" width="12" height="380" fill="#2F81F7"/>
+  <line x1="66" y1="74" x2="1138" y2="74" stroke="#273243"/>
+  <line x1="66" y1="306" x2="1138" y2="306" stroke="#273243"/>
+
+  <text x="66" y="50" fill="#7D8998" font-size="14" class="mono" letter-spacing="2">SIKSDEV / PROFILE 2026</text>
+  <text x="1138" y="50" text-anchor="end" fill="#7D8998" font-size="14" class="mono" letter-spacing="1.4">BR — RIO GRANDE DO SUL</text>
+
+  <text x="66" y="168" fill="#F0F6FC" font-size="66" font-weight="800" class="sans" letter-spacing="-2">RENATO</text>
+  <text x="66" y="238" fill="none" stroke="#8FA3B8" stroke-width="1.4" font-size="66" font-weight="800" class="sans" letter-spacing="-2">FERNANDES</text>
+
+  <g transform="translate(755,116)">
+    <text x="0" y="0" fill="#5E6C7C" font-size="13" class="mono" letter-spacing="1.8">ROLE</text>
+    <text x="0" y="30" fill="#E6EDF3" font-size="20" class="sans" font-weight="600">Software Development Student</text>
+
+    <text x="0" y="82" fill="#5E6C7C" font-size="13" class="mono" letter-spacing="1.8">DIRECTION</text>
+    <text x="0" y="112" fill="#58A6FF" font-size="20" class="sans" font-weight="700">C# / .NET / WEB</text>
+
+    <text x="0" y="164" fill="#5E6C7C" font-size="13" class="mono" letter-spacing="1.8">SHIPPING TODAY</text>
+    <text x="0" y="194" fill="#E6EDF3" font-size="19" class="sans">RedM &amp; FiveM systems · SafeStudio</text>
+  </g>
+
+  <text x="66" y="342" fill="#9BA8B8" font-size="15" class="mono">learn deeply / build clearly / ship real things</text>
+  <g transform="translate(1062,334)">
+    <rect x="0" y="0" width="76" height="2" fill="#1D2A3B"/>
+    <rect x="0" y="0" width="24" height="2" fill="#2F81F7">
+      <animate attributeName="x" values="0;52;0" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
